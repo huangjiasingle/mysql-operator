@@ -1,0 +1,9 @@
+apiVersion: finupgroup.com/v1beta1
+kind: Mysql
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: mysql-sample
+spec:
+  # Add fields here
+  foo: bar
